@@ -1,0 +1,98 @@
+.popup{
+  width: 205vh;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.box {
+    width: 800px;
+    height: 1000px;
+    border-radius: 12px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 85px 125px;
+    position: relative;
+    margin-bottom: 70%;
+   
+    
+  }
+  .box input {
+    background-color: transparent;
+    height: 30px;
+    width: 400px;
+    justify-content: center;
+    text-align: left 10px;
+    margin-top: 3%;
+    border-radius: 0.5px;
+  }
+  
+  .box button{
+    margin-top: 5%;
+}
+  .box p{
+    background-color: transparent;
+    margin-top: 6%;
+  }
+  .box h5{
+    background-color: transparent;
+    margin-top: 3%;
+    color: gray;
+  }
+  .btn1 {
+    display: inline;
+    background-color:  rgb(26, 176, 26);
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    margin: 195px -2px;
+    
+  }
+  .btn2 {
+    display: inline;
+    background-color:  rgb(26, 176, 26);;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin: auto;
+  }
+  .footer{
+    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  }
+  .box a{
+    color: rgb(26, 176, 26);
+    background-color: transparent;
+    margin-top: -150px;
+
+  }
+  .box select{
+    background-color: transparent;
+    height: 30px;
+    width: 400px;
+    margin-top: 3%;
+  }
+  .box option{
+    background-color: transparent;
+  }

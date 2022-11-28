@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'fira sans', sans-serif;
+  background-color: #2C333B;
+  background-repeat: no-repeat;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  
+}
+.container button{
+  background-color:  rgb(26, 176, 26);
+  color: white;
+  border-style: none;
+  width:270px;
+  height: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 2%;
+
+}
+.container h2{
+  color: white;
+font-size: 30px;
+}
